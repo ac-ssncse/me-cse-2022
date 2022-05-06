@@ -20,7 +20,7 @@
 - Modify the configuration techniques using kubernetes and Docker swarm 
 
 {{{unit}}}
-|UNIT I | TRADITIONAL | 9 |
+|UNIT I | TRADITIONAL PROCESS | 9 |
 Configuration management process : monitoring and control -- auditing -- testing -- incident and defect management -- problem management -- change management -- automation and tools -- lifecycle controls -- culture and organisation; Service asset and configuration management visions and strategies; Populating a CMDB  Process design : -- populate your CMDB; Case study monolithic application : Build the application -- Deploy the application.
 
 #+begin_comment
@@ -30,7 +30,7 @@ Configuration management process : monitoring and control -- auditing -- testing
 
 {{{unit}}}
 |UNIT II | MICROSERVICES | 9 |
-An Introduction to Microservices:What Are Microservices? ; Switching to Microservices:Cost Components; Interprocess Communication:Putting It All Together; Case Study: Migration to Microservices -- Planning for Migration -- Planning for Migration -- Applying Microservices Criteria -- Converting to Microservices -- Application Build and Deployment.
+An Introduction to Microservices:What Are Microservices? ; Switching to Microservices:Cost Components; Interprocess Communication:Putting It All Together; Case Study: Migration to Microservices -- Planning for Migration -- Applying Microservices Criteria -- Converting to Microservices -- Application Build and Deployment.
 
 #+begin_comment
 ...Included from Text Book 2, chapter 1,2,3,12
@@ -45,7 +45,7 @@ Docker Interface:Key Docker Commands -- Dockerfile -- Docker Compose; Case Study
 Helpdesk Application : Containerizing Microservices -- Deploying the Catalog Microservice.
 
 #+begin_comment
-...Included from Text Book 2, chapter 5.7.13
+...Included from Text Book 2, chapter 5,7,13
 #+end_comment
  
 
@@ -70,27 +70,25 @@ Container Orchestration : Kubernetes -- Kubectl -- Master Node -- Worker Nodes -
 ** COURSE OUTCOMES
 Upon completion of the course, the student should be able to
 1. Explain traditional software configuration principles (K2)
-2. Develop  microservices (K3)
+2. Develop  and  deploy microservices (K3)
 3. Build a container and deploy a  microservice (K3)
 4. Explain networking concepts in containers (K2)
 5. Choose  configuration features using Kubernetes and Docker swarm (K3).
 
       
-** TEXT BOOKS
+** REFERENCES
 1. Shirley Lacy and David Norfolk, ``CONFIGURATION MANAGEMENT, Expert
    guidance for IT service managers and practitioners``, Revised
    edition, BCS Learning and Development Ltd, UK, 2014.
 2. Parminder Singh Kocher Boston, ``Microservices and Containers'',
    Addison-Wesley, 2018.
 3. Michael Hausenblas, ``Docker Networking and Service Discovery'',
-   O'Reilly Publication, 2016.
-
-** REFERENCES
-1. Thomas Uphill, ``Mastering Puppet'', Second Edition,PACKT
+   O'Reilly Publication, 2016. 
+4. Thomas Uphill, ``Mastering Puppet'', Second Edition,PACKT
    Publishing, 2016
-2. Scott Coulton, ``Puppet for Containerization'', PACKT Publishing,
+5. Scott Coulton, ``Puppet for Containerization'', PACKT Publishing,
    2016
-3. Cesar de la Torre, Bill Wagner, Mike Rouses, ``.NET Microservices:
+6. Cesar de la Torre, Bill Wagner, Mike Rouses, ``.NET Microservices:
    Architecture for Containerized .NET Applications'', Microsoft
    Corporation, V5.) Edition, 2020.
 
